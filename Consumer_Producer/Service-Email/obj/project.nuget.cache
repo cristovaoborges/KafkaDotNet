@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "zQpPhBcdzJ5DSazj/s6vEJH/WIsxs//6GtqU2+a2tpHWuVztoNC38iDQtCINRuAGClHJXNmG3oUT3Is1SX+asA==",
+  "success": true,
+  "projectFilePath": "C:\\ProjetosDotNet\\KakfaConsumidorProdutor\\KafkaDotNet\\Consumer_Producer\\Service-Email\\Service-Email.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cristovao.borges\\.nuget\\packages\\confluent.kafka\\1.5.1\\confluent.kafka.1.5.1.nupkg.sha512",
+    "C:\\Users\\cristovao.borges\\.nuget\\packages\\librdkafka.redist\\1.5.0\\librdkafka.redist.1.5.0.nupkg.sha512",
+    "C:\\Users\\cristovao.borges\\.nuget\\packages\\serilog\\2.9.0\\serilog.2.9.0.nupkg.sha512",
+    "C:\\Users\\cristovao.borges\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
+    "C:\\Users\\cristovao.borges\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.17\\microsoft.netcore.app.host.win-x64.3.1.17.nupkg.sha512"
+  ],
+  "logs": []
+}

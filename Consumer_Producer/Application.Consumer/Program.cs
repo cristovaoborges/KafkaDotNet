@@ -10,7 +10,7 @@ namespace Application.Consumer
            
             KafkaConsumer Consumer = new KafkaConsumer();
             Consumer.ReciveMessage();
-            Console.WriteLine("Consumido ...");
+            Console.WriteLine("Consumindo ...");
         }
     }
 }

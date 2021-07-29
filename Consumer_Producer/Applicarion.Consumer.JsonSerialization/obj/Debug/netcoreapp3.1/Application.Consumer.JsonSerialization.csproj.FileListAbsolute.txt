@@ -1,0 +1,4 @@
+C:\ProjetosDotNet\KakfaConsumidorProdutor\KafkaDotNet\Consumer_Producer\Applicarion.Consumer.JsonSerialization\obj\Debug\netcoreapp3.1\Application.Consumer.JsonSerialization.csproj.AssemblyReference.cache
+C:\ProjetosDotNet\KakfaConsumidorProdutor\KafkaDotNet\Consumer_Producer\Applicarion.Consumer.JsonSerialization\obj\Debug\netcoreapp3.1\Application.Consumer.JsonSerialization.AssemblyInfoInputs.cache
+C:\ProjetosDotNet\KakfaConsumidorProdutor\KafkaDotNet\Consumer_Producer\Applicarion.Consumer.JsonSerialization\obj\Debug\netcoreapp3.1\Application.Consumer.JsonSerialization.AssemblyInfo.cs
+C:\ProjetosDotNet\KakfaConsumidorProdutor\KafkaDotNet\Consumer_Producer\Applicarion.Consumer.JsonSerialization\obj\Debug\netcoreapp3.1\Application.Consumer.JsonSerialization.csproj.CoreCompileInputs.cache

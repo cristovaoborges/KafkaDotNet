@@ -24,9 +24,9 @@ namespace Consumer_Producer.Entities
 
         }
 
-        public String GetText()
+        public String GetText(string topic)
         {          
-                return $"[Timestamp:{Timestamp}][RequisitionId:{RequisitionId}]";
+                return $"[Timestamp:{Timestamp}] [RequisitionId:{RequisitionId} ] [{topic}]";
 
           }
 

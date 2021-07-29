@@ -11,7 +11,8 @@ namespace Application.Consumer.Services
     {
 
         public const String HOST = "127.0.0.1:9092";
-        public const String KAFKA_TOPIC_NAME = "NEW_ORDER";
+        public const String KAFKA_TOPIC_NAME = "FRAUDE";
+        IEnumerable<string> m_oEnum = new string[] { "FRAUDE", "EMAIL" };
         public const String CONSUMER_GROUP_ID = "teste_consumer_group";
 
 
@@ -24,14 +25,13 @@ namespace Application.Consumer.Services
                 GroupId = CONSUMER_GROUP_ID,
                 BootstrapServers = HOST,
                 AutoOffsetReset = AutoOffsetReset.Earliest,
-               
-                
-                
+                MaxPollIntervalMs = 60000
+
             };
 
             using var Consumer = new ConsumerBuilder<Ignore, string>(conf).Build();
             {
-                Consumer.Subscribe(KAFKA_TOPIC_NAME);
+                Consumer.Subscribe(m_oEnum);
 
                 CancellationTokenSource Cts = new CancellationTokenSource();
                 Console.CancelKeyPress += (_, e) =>
